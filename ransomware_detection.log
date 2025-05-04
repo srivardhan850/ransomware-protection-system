@@ -1,0 +1,325 @@
+2025-04-27 11:48:14,934 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-27 11:48:14,935 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-27 11:48:14,941 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-27 11:48:16,014 - WARNING -  * Debugger is active!
+2025-04-27 11:48:16,024 - INFO -  * Debugger PIN: 279-891-902
+2025-04-27 11:50:00,897 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-27 11:50:00,899 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-27 11:50:00,901 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-27 11:50:01,457 - WARNING -  * Debugger is active!
+2025-04-27 11:50:01,468 - INFO -  * Debugger PIN: 279-891-902
+2025-04-27 11:50:20,588 - INFO - 127.0.0.1 - - [27/Apr/2025 11:50:20] "GET / HTTP/1.1" 200 -
+2025-04-27 11:50:21,062 - INFO - 127.0.0.1 - - [27/Apr/2025 11:50:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-27 11:50:38,531 - INFO - 127.0.0.1 - - [27/Apr/2025 11:50:38] "POST /api/protect HTTP/1.1" 200 -
+2025-04-27 11:50:55,144 - INFO - 127.0.0.1 - - [27/Apr/2025 11:50:55] "GET / HTTP/1.1" 200 -
+2025-04-27 11:50:55,553 - INFO - 127.0.0.1 - - [27/Apr/2025 11:50:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-27 11:51:53,734 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+2025-04-27 11:51:53,734 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\blueprints.py', reloading
+2025-04-27 11:51:53,735 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\cli.py', reloading
+2025-04-27 11:51:53,736 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\config.py', reloading
+2025-04-27 11:51:53,737 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\ctx.py', reloading
+2025-04-27 11:51:53,738 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\debughelpers.py', reloading
+2025-04-27 11:51:53,739 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-04-27 11:51:53,740 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\helpers.py', reloading
+2025-04-27 11:51:53,741 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\logging.py', reloading
+2025-04-27 11:51:53,742 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\scaffold.py', reloading
+2025-04-27 11:51:53,743 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\sessions.py', reloading
+2025-04-27 11:51:53,743 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\signals.py', reloading
+2025-04-27 11:51:53,744 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-04-27 11:51:53,745 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\testing.py', reloading
+2025-04-27 11:51:53,745 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\typing.py', reloading
+2025-04-27 11:51:53,746 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\views.py', reloading
+2025-04-27 11:51:53,748 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-04-27 11:51:53,749 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-04-27 11:51:53,752 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\__main__.py', reloading
+2025-04-27 11:51:53,752 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\json\\tag.py', reloading
+2025-04-27 11:51:53,753 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+2025-04-27 11:51:53,758 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-04-27 11:51:53,759 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-04-27 11:51:53,760 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\__main__.py', reloading
+2025-04-27 11:51:53,761 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\__main__.py', reloading
+2025-04-27 11:51:53,763 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+2025-04-27 11:51:53,764 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+2025-04-27 11:51:53,765 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\blueprints.py', reloading
+2025-04-27 11:51:53,766 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\blueprints.py', reloading
+2025-04-27 11:51:53,767 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\cli.py', reloading
+2025-04-27 11:51:53,767 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\cli.py', reloading
+2025-04-27 11:51:53,770 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\config.py', reloading
+2025-04-27 11:51:53,771 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\config.py', reloading
+2025-04-27 11:51:53,772 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\ctx.py', reloading
+2025-04-27 11:51:53,772 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\ctx.py', reloading
+2025-04-27 11:51:53,773 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\debughelpers.py', reloading
+2025-04-27 11:51:53,774 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\debughelpers.py', reloading
+2025-04-27 11:51:53,775 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-04-27 11:51:53,776 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-04-27 11:51:53,776 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\helpers.py', reloading
+2025-04-27 11:51:53,777 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\helpers.py', reloading
+2025-04-27 11:51:53,778 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\logging.py', reloading
+2025-04-27 11:51:53,779 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\logging.py', reloading
+2025-04-27 11:51:53,782 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\scaffold.py', reloading
+2025-04-27 11:51:53,784 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\scaffold.py', reloading
+2025-04-27 11:51:53,785 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\sessions.py', reloading
+2025-04-27 11:51:53,786 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\sessions.py', reloading
+2025-04-27 11:51:53,786 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\sessions.py', reloading
+2025-04-27 11:51:53,787 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\signals.py', reloading
+2025-04-27 11:51:53,788 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\signals.py', reloading
+2025-04-27 11:51:53,789 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-04-27 11:51:53,790 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-04-27 11:51:53,790 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-04-27 11:51:53,791 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\testing.py', reloading
+2025-04-27 11:51:53,792 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\testing.py', reloading
+2025-04-27 11:51:53,793 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\typing.py', reloading
+2025-04-27 11:51:53,796 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\typing.py', reloading
+2025-04-27 11:51:53,797 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\views.py', reloading
+2025-04-27 11:51:53,798 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\views.py', reloading
+2025-04-27 11:51:53,799 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-04-27 11:51:53,800 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-04-27 11:52:01,123 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 00:32:29,359 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-28 00:32:29,360 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-28 00:35:38,810 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-28 00:35:38,810 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-28 00:35:50,188 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-28 00:35:50,188 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-28 00:42:47,833 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-28 00:42:47,833 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-28 00:50:26,141 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-28 00:50:26,142 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-28 00:50:26,143 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 00:50:26,383 - WARNING -  * Debugger is active!
+2025-04-28 00:50:26,387 - INFO -  * Debugger PIN: 279-891-902
+2025-04-28 00:52:59,648 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-28 00:52:59,648 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-28 00:52:59,649 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 00:52:59,896 - WARNING -  * Debugger is active!
+2025-04-28 00:52:59,898 - INFO -  * Debugger PIN: 279-891-902
+2025-04-28 00:53:04,659 - INFO - 127.0.0.1 - - [28/Apr/2025 00:53:04] "GET / HTTP/1.1" 200 -
+2025-04-28 00:53:04,758 - INFO - 127.0.0.1 - - [28/Apr/2025 00:53:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-28 00:55:47,166 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-28 00:55:47,168 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-28 00:55:47,170 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 00:55:47,598 - WARNING -  * Debugger is active!
+2025-04-28 00:55:47,603 - INFO -  * Debugger PIN: 279-891-902
+2025-04-28 00:55:53,224 - INFO - 127.0.0.1 - - [28/Apr/2025 00:55:53] "GET / HTTP/1.1" 200 -
+2025-04-28 00:55:57,445 - INFO - 127.0.0.1 - - [28/Apr/2025 00:55:57] "GET / HTTP/1.1" 200 -
+2025-04-28 00:55:58,234 - INFO - 127.0.0.1 - - [28/Apr/2025 00:55:58] "GET / HTTP/1.1" 200 -
+2025-04-28 00:55:58,549 - INFO - 127.0.0.1 - - [28/Apr/2025 00:55:58] "GET / HTTP/1.1" 200 -
+2025-04-28 00:55:58,736 - INFO - 127.0.0.1 - - [28/Apr/2025 00:55:58] "GET / HTTP/1.1" 200 -
+2025-04-28 00:55:58,906 - INFO - 127.0.0.1 - - [28/Apr/2025 00:55:58] "GET / HTTP/1.1" 200 -
+2025-04-28 00:55:59,154 - INFO - 127.0.0.1 - - [28/Apr/2025 00:55:59] "GET / HTTP/1.1" 200 -
+2025-04-28 00:57:01,724 - INFO - 127.0.0.1 - - [28/Apr/2025 00:57:01] "GET / HTTP/1.1" 200 -
+2025-04-28 00:57:57,647 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-28 00:57:57,647 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-28 00:57:57,648 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 00:57:57,864 - WARNING -  * Debugger is active!
+2025-04-28 00:57:57,866 - INFO -  * Debugger PIN: 279-891-902
+2025-04-28 00:58:12,070 - INFO - 127.0.0.1 - - [28/Apr/2025 00:58:12] "GET / HTTP/1.1" 200 -
+2025-04-28 00:58:12,089 - INFO - 127.0.0.1 - - [28/Apr/2025 00:58:12] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 00:58:28,291 - INFO - 127.0.0.1 - - [28/Apr/2025 00:58:28] "GET / HTTP/1.1" 200 -
+2025-04-28 00:58:28,603 - INFO - 127.0.0.1 - - [28/Apr/2025 00:58:28] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:01:03,488 - INFO - 127.0.0.1 - - [28/Apr/2025 01:01:03] "GET / HTTP/1.1" 200 -
+2025-04-28 01:01:03,623 - INFO - 127.0.0.1 - - [28/Apr/2025 01:01:03] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:01:28,352 - INFO - 127.0.0.1 - - [28/Apr/2025 01:01:28] "POST /api/protect HTTP/1.1" 200 -
+2025-04-28 01:01:33,932 - INFO - 127.0.0.1 - - [28/Apr/2025 01:01:33] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:02:03,624 - INFO - 127.0.0.1 - - [28/Apr/2025 01:02:03] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:02:34,518 - INFO - 127.0.0.1 - - [28/Apr/2025 01:02:34] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:03:04,206 - INFO - 127.0.0.1 - - [28/Apr/2025 01:03:04] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:03:34,527 - INFO - 127.0.0.1 - - [28/Apr/2025 01:03:34] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:04:12,204 - INFO - 127.0.0.1 - - [28/Apr/2025 01:04:12] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:04:34,217 - INFO - 127.0.0.1 - - [28/Apr/2025 01:04:34] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:05:04,214 - INFO - 127.0.0.1 - - [28/Apr/2025 01:05:04] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:05:34,516 - INFO - 127.0.0.1 - - [28/Apr/2025 01:05:34] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:06:12,517 - INFO - 127.0.0.1 - - [28/Apr/2025 01:06:12] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:07:00,118 - INFO - 127.0.0.1 - - [28/Apr/2025 01:07:00] "GET / HTTP/1.1" 200 -
+2025-04-28 01:07:00,432 - INFO - 127.0.0.1 - - [28/Apr/2025 01:07:00] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:07:11,478 - INFO - 127.0.0.1 - - [28/Apr/2025 01:07:11] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:07:21,594 - INFO - 127.0.0.1 - - [28/Apr/2025 01:07:21] "GET / HTTP/1.1" 200 -
+2025-04-28 01:07:21,900 - INFO - 127.0.0.1 - - [28/Apr/2025 01:07:21] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:07:24,696 - INFO - 127.0.0.1 - - [28/Apr/2025 01:07:24] "GET / HTTP/1.1" 200 -
+2025-04-28 01:07:24,711 - INFO - 127.0.0.1 - - [28/Apr/2025 01:07:24] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:07:55,216 - INFO - 127.0.0.1 - - [28/Apr/2025 01:07:55] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:08:25,531 - INFO - 127.0.0.1 - - [28/Apr/2025 01:08:25] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:08:55,211 - INFO - 127.0.0.1 - - [28/Apr/2025 01:08:55] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:09:25,520 - INFO - 127.0.0.1 - - [28/Apr/2025 01:09:25] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:09:38,110 - INFO - 127.0.0.1 - - [28/Apr/2025 01:09:38] "POST /api/protect HTTP/1.1" 200 -
+2025-04-28 01:09:55,023 - INFO - 127.0.0.1 - - [28/Apr/2025 01:09:55] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:10:25,221 - INFO - 127.0.0.1 - - [28/Apr/2025 01:10:25] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:10:49,895 - INFO - 127.0.0.1 - - [28/Apr/2025 01:10:49] "POST /api/protect HTTP/1.1" 200 -
+2025-04-28 01:10:57,080 - INFO - 127.0.0.1 - - [28/Apr/2025 01:10:57] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:11:25,530 - INFO - 127.0.0.1 - - [28/Apr/2025 01:11:25] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:11:55,212 - INFO - 127.0.0.1 - - [28/Apr/2025 01:11:55] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:12:25,520 - INFO - 127.0.0.1 - - [28/Apr/2025 01:12:25] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:13:12,208 - INFO - 127.0.0.1 - - [28/Apr/2025 01:13:12] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:13:36,854 - INFO - 127.0.0.1 - - [28/Apr/2025 01:13:36] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:19:43,273 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+2025-04-28 01:19:43,283 - INFO -  * Detected change in 'C:\\Users\\sriva\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-04-28 01:19:44,423 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 01:19:45,483 - WARNING -  * Debugger is active!
+2025-04-28 01:19:45,489 - INFO -  * Debugger PIN: 279-891-902
+2025-04-28 01:19:49,348 - INFO -  * Detected change in 'C:\\Users\\sriva\\my project\\src\\web\\app.py', reloading
+2025-04-28 01:19:49,349 - INFO -  * Detected change in 'C:\\Users\\sriva\\my project\\src\\web\\app.py', reloading
+2025-04-28 01:19:49,349 - INFO -  * Detected change in 'C:\\Users\\sriva\\my project\\src\\web\\app.py', reloading
+2025-04-28 01:19:49,545 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 01:28:25,358 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-28 01:28:25,360 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-28 01:28:25,362 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 01:28:26,218 - WARNING -  * Debugger is active!
+2025-04-28 01:28:26,227 - INFO -  * Debugger PIN: 279-891-902
+2025-04-28 01:28:29,653 - INFO - 127.0.0.1 - - [28/Apr/2025 01:28:29] "GET / HTTP/1.1" 200 -
+2025-04-28 01:28:29,795 - ERROR - Error reading alerts: (sqlite3.OperationalError) no such table: alert
+[SQL: SELECT alert.id AS alert_id, alert.timestamp AS alert_timestamp, alert.type AS alert_type, alert.message AS alert_message, alert.severity AS alert_severity 
+FROM alert ORDER BY alert.timestamp DESC
+ LIMIT ? OFFSET ?]
+[parameters: (10, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-28 01:28:29,797 - INFO - 127.0.0.1 - - [28/Apr/2025 01:28:29] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:29:00,518 - ERROR - Error reading alerts: (sqlite3.OperationalError) no such table: alert
+[SQL: SELECT alert.id AS alert_id, alert.timestamp AS alert_timestamp, alert.type AS alert_type, alert.message AS alert_message, alert.severity AS alert_severity 
+FROM alert ORDER BY alert.timestamp DESC
+ LIMIT ? OFFSET ?]
+[parameters: (10, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-28 01:29:00,518 - INFO - 127.0.0.1 - - [28/Apr/2025 01:29:00] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:29:30,208 - ERROR - Error reading alerts: (sqlite3.OperationalError) no such table: alert
+[SQL: SELECT alert.id AS alert_id, alert.timestamp AS alert_timestamp, alert.type AS alert_type, alert.message AS alert_message, alert.severity AS alert_severity 
+FROM alert ORDER BY alert.timestamp DESC
+ LIMIT ? OFFSET ?]
+[parameters: (10, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-28 01:29:30,208 - INFO - 127.0.0.1 - - [28/Apr/2025 01:29:30] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:30:00,516 - ERROR - Error reading alerts: (sqlite3.OperationalError) no such table: alert
+[SQL: SELECT alert.id AS alert_id, alert.timestamp AS alert_timestamp, alert.type AS alert_type, alert.message AS alert_message, alert.severity AS alert_severity 
+FROM alert ORDER BY alert.timestamp DESC
+ LIMIT ? OFFSET ?]
+[parameters: (10, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-28 01:30:00,517 - INFO - 127.0.0.1 - - [28/Apr/2025 01:30:00] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:30:30,212 - ERROR - Error reading alerts: (sqlite3.OperationalError) no such table: alert
+[SQL: SELECT alert.id AS alert_id, alert.timestamp AS alert_timestamp, alert.type AS alert_type, alert.message AS alert_message, alert.severity AS alert_severity 
+FROM alert ORDER BY alert.timestamp DESC
+ LIMIT ? OFFSET ?]
+[parameters: (10, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-28 01:30:30,212 - INFO - 127.0.0.1 - - [28/Apr/2025 01:30:30] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:30:56,580 - INFO -  * Detected change in 'C:\\Users\\sriva\\my project\\src\\web\\app.py', reloading
+2025-04-28 01:30:56,581 - INFO -  * Detected change in 'C:\\Users\\sriva\\my project\\src\\web\\app.py', reloading
+2025-04-28 01:30:56,582 - INFO -  * Detected change in 'C:\\Users\\sriva\\my project\\src\\web\\app.py', reloading
+2025-04-28 01:30:56,755 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 01:30:57,294 - WARNING -  * Debugger is active!
+2025-04-28 01:30:57,296 - INFO -  * Debugger PIN: 279-891-902
+2025-04-28 01:31:00,523 - INFO - 127.0.0.1 - - [28/Apr/2025 01:31:00] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:31:38,179 - INFO - 127.0.0.1 - - [28/Apr/2025 01:31:38] "POST /api/test-alert HTTP/1.1" 200 -
+2025-04-28 01:31:44,326 - INFO - 127.0.0.1 - - [28/Apr/2025 01:31:44] "POST /api/test-alert HTTP/1.1" 200 -
+2025-04-28 01:32:01,514 - INFO - 127.0.0.1 - - [28/Apr/2025 01:32:01] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:32:44,993 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-28 01:32:44,993 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-28 01:32:44,995 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 01:32:45,915 - WARNING -  * Debugger is active!
+2025-04-28 01:32:45,920 - INFO -  * Debugger PIN: 279-891-902
+2025-04-28 01:32:47,030 - INFO - 127.0.0.1 - - [28/Apr/2025 01:32:47] "GET / HTTP/1.1" 200 -
+2025-04-28 01:32:47,147 - INFO - 127.0.0.1 - - [28/Apr/2025 01:32:47] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:32:51,345 - INFO - 127.0.0.1 - - [28/Apr/2025 01:32:51] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:33:17,207 - INFO - 127.0.0.1 - - [28/Apr/2025 01:33:17] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:33:47,523 - INFO - 127.0.0.1 - - [28/Apr/2025 01:33:47] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:34:21,506 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-28 01:34:21,506 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-28 01:34:21,507 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 01:34:22,124 - WARNING -  * Debugger is active!
+2025-04-28 01:34:22,127 - INFO -  * Debugger PIN: 279-891-902
+2025-04-28 01:34:24,413 - INFO - 127.0.0.1 - - [28/Apr/2025 01:34:24] "GET / HTTP/1.1" 200 -
+2025-04-28 01:34:24,476 - INFO - 127.0.0.1 - - [28/Apr/2025 01:34:24] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:34:54,481 - INFO - 127.0.0.1 - - [28/Apr/2025 01:34:54] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:34:56,746 - INFO - 127.0.0.1 - - [28/Apr/2025 01:34:56] "GET / HTTP/1.1" 200 -
+2025-04-28 01:34:56,791 - INFO - 127.0.0.1 - - [28/Apr/2025 01:34:56] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:35:28,021 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-28 01:35:28,021 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-28 01:35:28,023 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 01:35:28,541 - WARNING -  * Debugger is active!
+2025-04-28 01:35:28,544 - INFO -  * Debugger PIN: 279-891-902
+2025-04-28 01:35:32,380 - INFO - 127.0.0.1 - - [28/Apr/2025 01:35:32] "GET / HTTP/1.1" 200 -
+2025-04-28 01:35:32,481 - INFO - 127.0.0.1 - - [28/Apr/2025 01:35:32] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:36:03,252 - INFO - 127.0.0.1 - - [28/Apr/2025 01:36:03] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:39:35,269 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-28 01:39:35,270 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-28 01:39:35,272 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 01:39:36,789 - WARNING -  * Debugger is active!
+2025-04-28 01:39:36,795 - INFO -  * Debugger PIN: 279-891-902
+2025-04-28 01:39:38,061 - INFO - 127.0.0.1 - - [28/Apr/2025 01:39:38] "GET / HTTP/1.1" 200 -
+2025-04-28 01:39:38,249 - INFO - 127.0.0.1 - - [28/Apr/2025 01:39:38] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:40:05,551 - INFO - 127.0.0.1 - - [28/Apr/2025 01:40:05] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:40:09,221 - INFO - 127.0.0.1 - - [28/Apr/2025 01:40:09] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:40:39,585 - INFO - 127.0.0.1 - - [28/Apr/2025 01:40:39] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:40:41,157 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-28 01:40:41,158 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-28 01:40:41,158 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 01:40:42,405 - WARNING -  * Debugger is active!
+2025-04-28 01:40:42,408 - INFO -  * Debugger PIN: 279-891-902
+2025-04-28 01:40:51,466 - INFO - 127.0.0.1 - - [28/Apr/2025 01:40:51] "GET / HTTP/1.1" 200 -
+2025-04-28 01:40:51,766 - INFO - 127.0.0.1 - - [28/Apr/2025 01:40:51] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:40:57,955 - INFO - 127.0.0.1 - - [28/Apr/2025 01:40:57] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:41:03,526 - INFO - 127.0.0.1 - - [28/Apr/2025 01:41:03] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:41:29,014 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-28 01:41:29,014 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-28 01:41:29,016 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 01:41:30,056 - WARNING -  * Debugger is active!
+2025-04-28 01:41:30,061 - INFO -  * Debugger PIN: 279-891-902
+2025-04-28 01:41:33,699 - INFO - 127.0.0.1 - - [28/Apr/2025 01:41:33] "GET / HTTP/1.1" 200 -
+2025-04-28 01:41:33,918 - INFO - 127.0.0.1 - - [28/Apr/2025 01:41:33] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:41:33,968 - INFO - 127.0.0.1 - - [28/Apr/2025 01:41:33] "GET /api/status HTTP/1.1" 200 -
+2025-04-28 01:42:04,214 - INFO - 127.0.0.1 - - [28/Apr/2025 01:42:04] "GET /api/status HTTP/1.1" 200 -
+2025-05-04 23:30:24,786 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-04 23:30:24,790 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-04 23:30:24,794 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-04 23:30:25,999 - WARNING -  * Debugger is active!
+2025-05-04 23:30:26,008 - INFO -  * Debugger PIN: 279-891-902
+2025-05-04 23:30:31,773 - INFO - 127.0.0.1 - - [04/May/2025 23:30:31] "GET / HTTP/1.1" 200 -
+2025-05-04 23:30:32,083 - INFO - 127.0.0.1 - - [04/May/2025 23:30:32] "GET /api/status HTTP/1.1" 200 -
+2025-05-04 23:30:32,148 - INFO - 127.0.0.1 - - [04/May/2025 23:30:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-04 23:30:37,178 - INFO - 127.0.0.1 - - [04/May/2025 23:30:37] "POST /api/protect HTTP/1.1" 200 -
+2025-05-04 23:31:03,088 - INFO - 127.0.0.1 - - [04/May/2025 23:31:03] "GET /api/status HTTP/1.1" 200 -
+2025-05-04 23:31:33,074 - INFO - 127.0.0.1 - - [04/May/2025 23:31:33] "GET /api/status HTTP/1.1" 200 -
+2025-05-04 23:32:03,099 - INFO - 127.0.0.1 - - [04/May/2025 23:32:03] "GET /api/status HTTP/1.1" 200 -
+2025-05-04 23:32:48,890 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-04 23:32:48,890 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-04 23:32:48,892 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-04 23:32:50,061 - WARNING -  * Debugger is active!
+2025-05-04 23:32:50,064 - INFO -  * Debugger PIN: 279-891-902
+2025-05-04 23:33:03,086 - INFO - 127.0.0.1 - - [04/May/2025 23:33:03] "GET / HTTP/1.1" 200 -
+2025-05-04 23:33:03,370 - INFO - 127.0.0.1 - - [04/May/2025 23:33:03] "GET /api/status HTTP/1.1" 200 -
+2025-05-04 23:33:03,481 - INFO - 127.0.0.1 - - [04/May/2025 23:33:03] "GET /api/status HTTP/1.1" 200 -
+2025-05-04 23:33:33,074 - INFO - 127.0.0.1 - - [04/May/2025 23:33:33] "GET /api/status HTTP/1.1" 200 -
+2025-05-04 23:33:33,760 - INFO - 127.0.0.1 - - [04/May/2025 23:33:33] "GET /api/status HTTP/1.1" 200 -
+2025-05-04 23:33:43,815 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-04 23:33:43,816 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-04 23:33:43,819 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-04 23:33:44,692 - WARNING -  * Debugger is active!
+2025-05-04 23:33:44,695 - INFO -  * Debugger PIN: 279-891-902
+2025-05-04 23:33:58,911 - INFO - 127.0.0.1 - - [04/May/2025 23:33:58] "GET / HTTP/1.1" 200 -
+2025-05-04 23:33:59,161 - INFO - 127.0.0.1 - - [04/May/2025 23:33:59] "GET /api/status HTTP/1.1" 200 -
+2025-05-04 23:34:03,071 - INFO - 127.0.0.1 - - [04/May/2025 23:34:03] "GET /api/status HTTP/1.1" 200 -
+2025-05-04 23:34:30,090 - INFO - 127.0.0.1 - - [04/May/2025 23:34:30] "GET /api/status HTTP/1.1" 200 -
+2025-05-04 23:34:59,769 - INFO - 127.0.0.1 - - [04/May/2025 23:34:59] "GET /api/status HTTP/1.1" 200 -
+2025-05-04 23:35:30,073 - INFO - 127.0.0.1 - - [04/May/2025 23:35:30] "GET /api/status HTTP/1.1" 200 -
+2025-05-04 23:36:00,069 - INFO - 127.0.0.1 - - [04/May/2025 23:36:00] "GET /api/status HTTP/1.1" 200 -
+2025-05-05 00:08:52,702 - INFO - 127.0.0.1 - - [05/May/2025 00:08:52] "GET /api/status HTTP/1.1" 200 -
+2025-05-05 00:09:08,543 - INFO - 127.0.0.1 - - [05/May/2025 00:09:08] "GET /api/status HTTP/1.1" 200 -
