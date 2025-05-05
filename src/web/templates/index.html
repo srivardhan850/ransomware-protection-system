@@ -112,6 +112,36 @@
                     </div>
                 </div>
             </div>
+
+            <div class="col-md-3">
+                <div class="card dashboard-card">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">
+                            <i class="fas fa-network-wired"></i> Network Monitor
+                        </h5>
+                        <div id="networkStatus">
+                            <p>Monitoring: <span id="networkMonitorStatus">Active</span></p>
+                            <p>Suspicious Connections: <span id="suspiciousConnections">0</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card dashboard-card">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">
+                            <i class="fas fa-quarantine"></i> Quarantine
+                        </h5>
+                        <div id="quarantineStatus">
+                            <p>Files in Quarantine: <span id="quarantinedFiles">0</span></p>
+                            <button class="btn btn-sm btn-warning" onclick="viewQuarantined()">
+                                View Quarantined Files
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Directory Protection Section -->

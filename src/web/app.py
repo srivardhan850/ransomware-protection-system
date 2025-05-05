@@ -4,6 +4,9 @@ import logging
 from datetime import datetime
 import sys
 from flask_sqlalchemy import SQLAlchemy
+from email.mime.text import MIMEText
+import smtplib
+from prevention.self_destruct import SelfDestructMechanism
 
 # Add parent directory to path for imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -23,6 +26,7 @@ class Alert(db.Model):
     type = db.Column(db.String(50))
     message = db.Column(db.String(500))
     severity = db.Column(db.String(20))
+    email_sent = db.Column(db.Boolean, default=False)
 
 # Configure logging
 logging.basicConfig(
@@ -69,10 +73,20 @@ def protect_directory():
     directory = request.json.get('directory')
     if directory and os.path.exists(directory):
         try:
+            # Initialize self-destruct mechanism
+            self_destruct = SelfDestructMechanism()
+            
             # Add directory to protected list
             with open('protected_directories.txt', 'a') as f:
                 f.write(f"{directory}\n")
-            logging.info(f"Added directory to protection: {directory}")
+            
+            # Apply self-destruct protection to all files
+            for root, _, files in os.walk(directory):
+                for file in files:
+                    file_path = os.path.join(root, file)
+                    self_destruct.encrypt_file_with_timer(file_path)
+                    
+            logging.info(f"Added directory to protection with self-destruct: {directory}")
             return jsonify({'status': 'success'})
         except Exception as e:
             logging.error(f"Failed to protect directory: {str(e)}")
@@ -130,6 +144,29 @@ def add_test_alert():
         return jsonify({'status': 'success', 'message': 'Test alert added'})
     except Exception as e:
         return jsonify({'status': 'error', 'message': str(e)})
+
+def send_alert_email(alert_message, severity):
+    try:
+        smtp_server = "smtp.gmail.com"
+        port = 587
+        sender_email = "your-email@gmail.com"
+        receiver_email = "admin@example.com"
+        password = os.environ.get('EMAIL_PASSWORD')
+
+        msg = MIMEText(alert_message)
+        msg['Subject'] = f'Ransomware Protection Alert - {severity.upper()}'
+        msg['From'] = sender_email
+        msg['To'] = receiver_email
+
+        with smtplib.SMTP(smtp_server, port) as server:
+            server.starttls()
+            server.login(sender_email, password)
+            server.send_message(msg)
+            
+        return True
+    except Exception as e:
+        logging.error(f"Failed to send email alert: {str(e)}")
+        return False
 
 if __name__ == '__main__':
     # Create necessary directories if they don't exist
